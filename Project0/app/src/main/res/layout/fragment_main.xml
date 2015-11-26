@@ -30,95 +30,36 @@
             android:textAlignment="center"
             android:id="@+id/headerView" />
 
-        <Button
-            android:layout_width="249dp"
-            android:layout_height="wrap_content"
+        <Button style="@style/buttonStyle"
             android:text="SPOTIFY MANAGER"
             android:id="@+id/spotifyButton"
-            android:layout_below="@+id/headerView"
-            android:layout_marginTop="20dp"
-            android:background="#F08c35"
-            android:textSize="18dp"
-            android:layout_alignLeft="@+id/headerView"
-            android:layout_alignStart="@+id/headerView"
-            android:layout_alignRight="@+id/headerView"
-            android:layout_alignEnd="@+id/headerView"
-            android:onClick="sendMessage"/>
+            android:layout_below="@+id/headerView" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button style="@style/buttonStyle"
             android:text="SCORES APP"
             android:id="@+id/scoreButton"
-            android:layout_below="@+id/spotifyButton"
-            android:layout_marginTop="20dp"
-            android:background="#F08c35"
-            android:textSize="18dp"
-            android:layout_alignLeft="@+id/headerView"
-            android:layout_alignStart="@+id/headerView"
-            android:layout_alignRight="@+id/headerView"
-            android:layout_alignEnd="@+id/headerView"
-            android:onClick="sendMessage"/>
+            android:layout_below="@+id/spotifyButton" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button style="@style/buttonStyle"
             android:text="LIBRARY APP"
             android:id="@+id/librayButton"
-            android:layout_below="@+id/scoreButton"
-            android:layout_marginTop="20dp"
-            android:background="#F08c35"
-            android:textSize="18dp"
-            android:layout_alignLeft="@+id/headerView"
-            android:layout_alignStart="@+id/headerView"
-            android:layout_alignRight="@+id/headerView"
-            android:layout_alignEnd="@+id/headerView"
-            android:onClick="sendMessage"/>
+            android:layout_below="@+id/scoreButton" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button style="@style/buttonStyle"
             android:text="BUILD IT BIGGER"
             android:id="@+id/buildItBiggerButton"
-            android:layout_below="@+id/librayButton"
-            android:layout_marginTop="20dp"
-            android:background="#F08c35"
-            android:textSize="18dp"
-            android:layout_alignLeft="@+id/headerView"
-            android:layout_alignStart="@+id/headerView"
-            android:layout_alignRight="@+id/headerView"
-            android:layout_alignEnd="@+id/headerView"
-            android:onClick="sendMessage"/>
+            android:layout_below="@+id/librayButton" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button style="@style/buttonStyle"
             android:text="XYZ READER"
             android:id="@+id/xyzReaderButton"
-            android:layout_below="@+id/buildItBiggerButton"
-            android:layout_marginTop="20dp"
-            android:background="#F08c35"
-            android:textSize="18dp"
-            android:layout_alignLeft="@+id/headerView"
-            android:layout_alignStart="@+id/headerView"
-            android:layout_alignRight="@+id/headerView"
-            android:layout_alignEnd="@+id/headerView"
-            android:onClick="sendMessage"/>
+            android:layout_below="@+id/buildItBiggerButton" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button style="@style/buttonStyle"
             android:text="CAPSTONE: MY OWN APP "
             android:id="@+id/capstonMyOwnAppButton"
             android:layout_below="@+id/xyzReaderButton"
-            android:layout_marginTop="20dp"
-            android:background="#E91E63"
-            android:textSize="18dp"
-            android:layout_alignLeft="@+id/headerView"
-            android:layout_alignStart="@+id/headerView"
-            android:layout_alignRight="@+id/headerView"
-            android:layout_alignEnd="@+id/headerView"
-            android:onClick="sendMessage" />
+            android:background="@string/capstoneButton_color" />
 
     </RelativeLayout >
 
